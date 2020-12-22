@@ -16,7 +16,7 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local")
 const helmet = require("helmet");
 const MongoDBStore = require("connect-mongo")(session);
-// const dbUrl = process.env.DB_URL;
+const dbUrl = process.env.DB_URL;
 
 
 
