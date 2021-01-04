@@ -57,7 +57,7 @@ app.use(morgan("common"));
 app.use(flash());
 
 const scriptSrcUrls = [
-  "https://embed.tawk.to/5ff3307ec31c9117cb6b55e4/1er6varmn"
+  "https://embed.tawk.to/5ff3307ec31c9117cb6b55e4/1er6varmn",
   "https://stackpath.bootstrapcdn.com/",
   "https://api.tiles.mapbox.com/",
   "https://api.mapbox.com/",
