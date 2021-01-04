@@ -57,7 +57,7 @@ app.use(morgan("common"));
 app.use(flash());
 
 const scriptSrcUrls = [
-  "https://va.tawk.to/"
+  "https://va.tawk.to/",
   "https://static-v.tawk.to/698/app.js",
   "https://embed.tawk.to/5ff3307ec31c9117cb6b55e4/1er6varmn",
   "https://stackpath.bootstrapcdn.com/",
