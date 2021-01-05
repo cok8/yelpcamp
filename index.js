@@ -58,6 +58,7 @@ app.use(flash());
 
 const scriptSrcUrls = [
   "https://embed.tawk.to/",
+  "https://static-v.tawk.to/",
   "https://stackpath.bootstrapcdn.com/",
   "https://api.tiles.mapbox.com/",
   "https://api.mapbox.com/",
