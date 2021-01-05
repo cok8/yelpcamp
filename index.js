@@ -83,26 +83,26 @@ const connectSrcUrls = [
   "https://events.mapbox.com/",
 ];
 const fontSrcUrls = [];
-app.use(
-  helmet.contentSecurityPolicy({
-      directives: {
-          defaultSrc: [],
-          connectSrc: ["'self'", ...connectSrcUrls],
-          scriptSrc: ["'unsafe-inline'", "'self'", ...scriptSrcUrls],
-          styleSrc: ["'self'", "'unsafe-inline'", ...styleSrcUrls],
-          workerSrc: ["'self'", "blob:"],
-          objectSrc: [],
-          imgSrc: [
-              "'self'",
-              "blob:",
-              "data:",
-              "https://res.cloudinary.com/daoy87kvt/", //SHOULD MATCH YOUR CLOUDINARY ACCOUNT! 
-              "https://images.unsplash.com/",
-          ],
-          fontSrc: ["'self'", ...fontSrcUrls],
-      },
-  })
-);
+// app.use(
+//   helmet.contentSecurityPolicy({
+//       directives: {
+//           defaultSrc: [],
+//           connectSrc: ["'self'", ...connectSrcUrls],
+//           scriptSrc: ["'unsafe-inline'", "'self'", ...scriptSrcUrls],
+//           styleSrc: ["'self'", "'unsafe-inline'", ...styleSrcUrls],
+//           workerSrc: ["'self'", "blob:"],
+//           objectSrc: [],
+//           imgSrc: [
+//               "'self'",
+//               "blob:",
+//               "data:",
+//               "https://res.cloudinary.com/daoy87kvt/", //SHOULD MATCH YOUR CLOUDINARY ACCOUNT! 
+//               "https://images.unsplash.com/",
+//           ],
+//           fontSrc: ["'self'", ...fontSrcUrls],
+//       },
+//   })
+// );
 
 const secret = process.env.SECRET || "testing"
 
