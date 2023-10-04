@@ -1,5 +1,5 @@
 # Yelp Camp
-##Web-based platform that allows users find available campgrounds anywhere in the world.
+### Web-based platform that allows users find available campgrounds anywhere in the world.
 
 Users can create, edit and delete their own campgrounds.
 
